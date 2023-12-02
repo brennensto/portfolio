@@ -1,5 +1,6 @@
 /*Header*/
 header{
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto auto;
@@ -11,11 +12,17 @@ header a{
     padding: 7%;
 }
 
+header a:hover{
+    margin-top: -6px;
+}
+
 #logo{
     width: 30%;
 }
+
 /*Footer*/
 footer{
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 3fr;
 }
@@ -23,8 +30,12 @@ footer img{
     width: 30%;
     margin: auto auto;
 }
+footer p{
+    color: #F7F3E8;
+    padding: 8%
+}
 footer a{
-    padding-top: 7.5%;
+    padding-top: 15%;
 }
 /*Home Page*/
 #home-link{
@@ -32,8 +43,10 @@ footer a{
 }
 body{
     background-color: #0E67B4;
+    margin: 0;
 }
 #hero{
+    background-color: #2812a4;
     padding-top: 2.5%;
     display: grid;
     grid-template-columns: 1fr 2fr;
