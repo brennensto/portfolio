@@ -37,10 +37,10 @@ footer p{
 footer a{
     padding-top: 15%;
 }
-/*Home Page*/
-#home-link{
-    text-decoration: underline;
-}
+
+/*
+Home Page
+*/
 body{
     background-color: #0E67B4;
     margin: 0;
@@ -99,4 +99,68 @@ main{
 #home-misc:hover {
     transform: scale(1.2);
     margin-top: -10px;
+}
+
+/*
+Clothing
+*/
+#chero{
+    background-color: #2812a4;
+    padding-top: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#chero h1{
+    font-size: 400%;
+    text-align: center;
+    color: #F7F3E8;
+    font-style:oblique;
+}
+#chero p{
+    text-align: center;
+    color: #F7F3E8;
+    font-size: 225%;
+    margin-right: 10%;
+}
+#item-grid{
+    background-color: #2812a4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.citems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    background-color: #0E67B4;
+    border-color: black;
+    border: solid 2px;
+    margin: 5px 2.5%;
+    padding-right: 5px;
+}
+.citems img{
+    width: 100%;
+}
+.citems h1{
+    padding-left: 10%;
+    color: #F7F3E8;
+}
+.citems p{
+    font-size: 150%;
+    text-align: center;
+    color: #F7F3E8;
+}
+.button {
+    background-color: #04680c;
+    border: solid 1px black;
+    color: #F7F3E8;
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.6;
+    transition: 0.3s;
+    width: 50%;
+    margin: auto auto;
+    text-decoration: none;
+}
+.button:hover{
+    opacity: 1;
 }
